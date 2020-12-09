@@ -119,4 +119,4 @@ else:
         bootup = Boot()
         client = bootup.client
     except:
-        pass
+        print(sys.exit("[ERROR] Client cannot run"))
