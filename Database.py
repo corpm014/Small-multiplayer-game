@@ -13,4 +13,9 @@ c.execute("""CREATE TABLE IF NOT EXISTS users (
 
 conn.commit()
 
+# Testing
+c.execute("INSERT INTO users VALUES (?, ?, ?)", ("hi","ho","he"))
+
+conn.commit()
+
 conn.close()
