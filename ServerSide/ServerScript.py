@@ -86,4 +86,4 @@ if __name__ == "__main__":
         MainServer = Server()
         MainServer.start_server()
     except Exception as e:
-        print("[ERROR] Server cannot start", e)
+        print(sys.exit("[ERROR] Server cannot start", e))
