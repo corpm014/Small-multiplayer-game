@@ -112,6 +112,7 @@ class Boot:
         self.warningLabel.after(1000, self.ready_to_load)
 
 
+# here is a comment
 if __name__ == "__main__":
     print("[ERROR] Cannot run without app")
 else:
