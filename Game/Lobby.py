@@ -80,6 +80,8 @@ class LobbyGUI:
     def join(self, client, game):
         print(client, game.gameName)
 
+
+# VSCODE test
 if __name__ == "__main__":
     mainLobby = Lobby()
     root = Tk()
