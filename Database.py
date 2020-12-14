@@ -5,11 +5,11 @@ conn = sqlite3.connect('Users.db')
 c = conn.cursor()
 
 # Creating the table
-c.execute("""CREATE TABLE IF NOT EXISTS USERS
+c.execute("""CREATE TABLE IF NOT EXISTS users (
             username text,
             email text,
             password text
-            """)
+            )""")
 
 conn.commit()
 
