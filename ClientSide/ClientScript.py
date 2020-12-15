@@ -1,6 +1,7 @@
 import socket
 from tkinter import *
 import time
+import sys
 
 class Client:
 
@@ -114,7 +115,7 @@ class Boot:
 
 # here is a comment
 if __name__ == "__main__":
-    print("[ERROR] Cannot run without app")
+    print(sys.exit("[ERROR] Cannot run without app"))
 else:
     try:
         bootup = Boot()
