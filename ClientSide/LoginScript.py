@@ -71,7 +71,6 @@ class Login:
     def login_call(self):
         for i in range(0, len(users.names)):
 
-
             self.current_user = users.names[i].username
             self.current_password = users.names[i].password
             print(self.current_user)

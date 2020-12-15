@@ -1,10 +1,11 @@
 import socket
 import threading
-#from Game import lobby as Lb
+from Game import Lobby as Lb
 import numpy as np
 import sys
 
-#localLobby = Lb.Lobby()
+localLobby = Lb.Lobby()
+
 
 class Server:
 
@@ -81,7 +82,6 @@ class Server:
             self.send_message("USER_INFO", client)
         elif message == "SIGN_UP":
             self.send_message("SIGN_INFO", client)
-
 
 
 if __name__ == "__main__":
