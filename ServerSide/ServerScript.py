@@ -1,14 +1,16 @@
 import socket
 import threading
-from Game import Lobby as Lb
+#from Game import lobby as Lb
 import numpy as np
+import sys
 
-localLobby = Lb.Lobby()
+#localLobby = Lb.Lobby()
 
 class Server:
 
     # Global variables
     port = 8080
+
     header = 64
     serverIP = socket.gethostbyname(socket.gethostname())
     format = 'utf-8'
@@ -25,6 +27,7 @@ class Server:
         self.server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.server.bind(self.address)
 
+        # Our connected clients
         self.clients = np.array([])
 
     def handle_client(self, client, addr):
