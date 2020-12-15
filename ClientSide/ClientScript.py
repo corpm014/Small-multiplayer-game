@@ -1,6 +1,7 @@
 import socket
 from tkinter import *
 import time
+import sys
 
 class Client:
 
@@ -112,9 +113,9 @@ class Boot:
         self.warningLabel.after(1000, self.ready_to_load)
 
 
-# here is a comment
+# Checks to see if there is an app to run
 if __name__ == "__main__":
-    print("[ERROR] Cannot run without app")
+    print(sys.exit("[ERROR] Cannot run without app"))
 else:
     try:
         bootup = Boot()

@@ -1,5 +1,11 @@
 # Small-multiplayer-game
 Still not finished
-A tkinter 'guess my number' game
-Uses UDP sockets
-test update
+
+Features so far:
+- Tkinter login GUI
+- Working server
+
+Upcoming changes:
+- Database fixes
+- Encrypting passwords (hashing)
+- Working lobby
