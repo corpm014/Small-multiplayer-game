@@ -1,5 +1,6 @@
 # Small-multiplayer-game
-Still not finished
+Not planning to be finished!
+It was just for me to practice sockets
 
 Features so far:
 - Tkinter login GUI
