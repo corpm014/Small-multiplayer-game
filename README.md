@@ -1,12 +1,11 @@
 # Small-multiplayer-game
 Not planning to be finished!
-It was just for me to practice sockets
+Going to finish soon!
 
 Features so far:
 - Tkinter login GUI
 - Working server
 
 Upcoming changes:
-- Database fixes
-- Encrypting passwords (hashing)
 - Working lobby
+- Updating login to use bcrypt (hashing)
