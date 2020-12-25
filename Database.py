@@ -39,5 +39,10 @@ def print_user(user):
     print(c.fetchone())
     return c.fetchone()
 
+# Update a password
+def update_password(username, newPassword):
+    with conn:
+        c.execute("UPDATE FROM users SET password = ? WHERE username = ?", (newPassword, username))
+
 
 conn.close()
